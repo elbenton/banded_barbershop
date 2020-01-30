@@ -9,6 +9,7 @@
         background-repeat: no-repeat;
         color: #cdcdcd;
         font-family: 'Alata', sans-serif;
+        overflow-x: hidden;
     }
 
     body.location {
@@ -21,6 +22,7 @@
         background-repeat: no-repeat;
         color: #cdcdcd;
         font-family: 'Alata', sans-serif;
+        overflow-x: hidden;
     }
 
     body.contact {
@@ -33,11 +35,13 @@
         background-repeat: no-repeat;
         color: #cdcdcd;
         font-family: 'Alata', sans-serif;
+        overflow-x: hidden;
     }
     
     nav {
         background-color: white;
         height: 65px;
+        width: 100%;
     }
     #menuToggle{
         display: block;
@@ -186,9 +190,11 @@
     }
     
     .social>p {
+        text-align: center;
         font-size: 25px;
-        float: right;
-        margin-right: 120px;
+        margin-top: -25px;
+        margin-right: auto;
+
     }
 
     .social>p>a {
@@ -197,9 +203,11 @@
 
     
    .ig {
+       display: block;
         width: 15%;
         margin-top: 5px;
-        margin-left: 20px;
+        margin-left: auto;
+        margin-right: auto;
         
     }
 
@@ -212,13 +220,16 @@
     }
 
     #instafeed {
-        display: inline-block;
-        width: 85%;
+        display: block;
+        width: 100%;
         text-align: center;
-        column-count: 2;
         margin-top: 5px;
-        margin-left: 35px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
+    .insta-image {
+        margin: auto;
     }
 
     .map {
@@ -282,6 +293,7 @@
         background-repeat: no-repeat;
         color: #cdcdcd;
         font-family: 'Alata', sans-serif;
+        overflow-x: hidden;
     }
 
     body.location {
@@ -294,6 +306,7 @@
         background-repeat: no-repeat;
         color: #cdcdcd;
         font-family: 'Alata', sans-serif;
+        overflow-x: hidden;
     }
 
     body.contact {
@@ -306,6 +319,7 @@
         background-repeat: no-repeat;
         color: #cdcdcd;
         font-family: 'Alata', sans-serif;
+        overflow-x: hidden;
     }
     
     nav {
@@ -455,16 +469,18 @@
     .social {
         display: block;
         background-color: white;
-        opacity: 0.9;
         width: 86%;
         margin-left: auto;
         margin-right: auto;
+        opacity: 0.9;
     }
     
     .social>p {
+        text-align: center;
         font-size: 25px;
-        float: right;
-        margin-right: 120px;
+        margin-top: -25px;
+        margin-right: auto;
+
     }
 
     .social>p>a {
@@ -473,32 +489,33 @@
 
     
    .ig {
+        display: block;
         width: 15%;
         margin-top: 5px;
-        margin-left: 20px;
-        
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .container{
         background-color: white;
-        opacity: 0.9;
         width: 86%;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 20px;
+        opacity: 0.9;
     }
 
     #instafeed {
-        display: inline-block;
-        width: 85%;
-        column-count: 1;
+        display: block;
+        width: 100%;
+        text-align: center;
         margin-top: 5px;
-        margin-left: 100px;
-
+        margin-left: auto;
+        margin-right: auto;
     }
 
-    .social p {
-        display: none;
+    .insta-image {
+        margin: auto;
     }
 
     .map {
@@ -565,6 +582,7 @@
         background-repeat: no-repeat;
         color: #cdcdcd;
         font-family: 'Alata', sans-serif;
+        overflow-x: hidden;
     }
 
     body.location {
@@ -577,6 +595,7 @@
         background-repeat: no-repeat;
         color: #cdcdcd;
         font-family: 'Alata', sans-serif;
+        overflow-x: hidden;
     }
 
     body.contact {
@@ -589,6 +608,7 @@
         background-repeat: no-repeat;
         color: #cdcdcd;
         font-family: 'Alata', sans-serif;
+        overflow-x: hidden;
     }
     
     nav {
@@ -711,7 +731,6 @@
 
     #about {
         background-color: white;
-        opacity: 1.0;
         color: black;
         display: block;
         margin-top: 20px;
@@ -720,7 +739,7 @@
         margin-right: auto;
         align-items: center;
         height: 200px;
-        width: 100%;
+        width: 86%;
         font-size: 20px;
         
     }
@@ -736,20 +755,21 @@
         text-align: center;
     }
 
-
     .social {
         display: block;
         background-color: white;
-        opacity: 1.0;
-        width: 100%;
+        width: 86%;
         margin-left: auto;
         margin-right: auto;
+        opacity: 0.9;
     }
     
     .social>p {
+        text-align: center;
         font-size: 25px;
+        margin-top: -25px;
         margin-right: auto;
-        margin-left: auto;
+
     }
 
     .social>p>a {
@@ -758,27 +778,33 @@
 
     
    .ig {
-        width: 15%;
+        display: block;
+        width: 10%;
         margin-top: 5px;
-        margin-left: 600px;
-        
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .container{
         background-color: white;
-        opacity: 1.0;
-        width: 100%;
+        width: 86%;
+        margin-left: auto;
+        margin-right: auto;
         margin-bottom: 20px;
+        opacity: 0.9;
     }
 
     #instafeed {
-        display: inline-block;
-        width: 85%;
+        display: block;
+        width: 100%;
         text-align: center;
-        column-count: 2;
         margin-top: 5px;
-        margin-left: 410px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
+    .insta-image {
+        margin: auto;
     }
 
     .map {
